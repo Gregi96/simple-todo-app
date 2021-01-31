@@ -1,0 +1,124 @@
+.wrapper {
+  width: 60vw;
+  min-height: 100vh;
+  background-color: #fefff8;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 5px 10px 18px #888888;
+  border: 1px solid;
+}
+
+h1 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+header {
+  background-color: #e7a61a;
+  height: 60px;
+  border-bottom: 1px solid black;
+}
+
+section {
+  margin-top: 10px;
+}
+
+.AddTask span {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.AddTask button {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(224, 223, 223, 0.301);
+  border: 1.2px solid rgba(51, 51, 51, 0.5);
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+.AddTask button:hover {
+  background-color: rgba(63, 62, 62, 0.2);
+}
+
+input[type="text"],
+input[type="date"] {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.delete-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(224, 223, 223, 0.301);
+  border: 1.2px solid rgba(51, 51, 51, 0.5);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.delete-button:hover {
+  background-color: rgba(245, 244, 244, 0.301);
+}
+
+.check-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(224, 223, 223, 0.301);
+  border: 1.2px solid rgba(51, 51, 51, 0.5);
+  cursor: pointer;
+}
+
+.AllInformation {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  /* margin-bottom: 15px; */
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.buttons {
+  margin-left: 20px;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 734px) {
+  .wrapper {
+    width: 90vw;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 599px) {
+  .wrapper {
+    width: 100vw;
+  }
+}
