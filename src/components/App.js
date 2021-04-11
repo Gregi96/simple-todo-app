@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import "./App.css";
-import AddTask from "./AddTask";
-import TaskList from "./TaskList";
+import React, { Component } from 'react';
+import './App.css';
+import AddTask from './AddTask';
+import TaskList from './TaskList';
 
 class App extends Component {
   id = 6;
@@ -10,56 +10,56 @@ class App extends Component {
     task: [
       {
         id: 0,
-        text: "Pierwsze zadanie",
+        text: 'Pierwsze zadanie',
         active: true,
         important: false,
         done: false,
-        date: "2020-10-21",
+        date: '2020-10-21',
         finishDate: null,
       },
       {
         id: 1,
-        text: "Drugie zadanie",
+        text: 'Drugie zadanie',
         active: true,
         important: false,
         done: false,
-        date: "2020-10-21",
+        date: '2020-10-21',
         finishDate: null,
       },
       {
         id: 2,
-        text: "Trzecie zadanie",
+        text: 'Trzecie zadanie',
         active: true,
         important: false,
         done: false,
-        date: "2020-10-21",
+        date: '2020-10-21',
         finishDate: null,
       },
       {
         id: 3,
-        text: "Czwarte zadanie",
+        text: 'Czwarte zadanie',
         active: true,
         important: false,
         done: false,
-        date: "2020-10-21",
+        date: '2020-10-21',
         finishDate: null,
       },
       {
         id: 4,
-        text: "Piąte zadanie",
+        text: 'Piąte zadanie',
         active: true,
         important: false,
         done: false,
-        date: "2020-10-21",
+        date: '2020-10-21',
         finishDate: null,
       },
       {
         id: 5,
-        text: "Szóste zadanie",
+        text: 'Szóste zadanie',
         active: true,
         important: false,
         done: false,
-        date: "2020-10-21",
+        date: '2020-10-21',
         finishDate: null,
       },
     ],
@@ -122,6 +122,7 @@ class App extends Component {
           deleteTask={this.deleteTask}
           changeStatus={this.changeStatus}
         />
+        <div>yet another new footer</div>
       </div>
     );
   }
