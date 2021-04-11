@@ -123,6 +123,7 @@ class App extends Component {
           changeStatus={this.changeStatus}
         />
         <div>yet another new footer</div>
+        <form action="#">Fomrularz</form>
       </div>
     );
   }
