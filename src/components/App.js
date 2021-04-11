@@ -122,6 +122,7 @@ class App extends Component {
           deleteTask={this.deleteTask}
           changeStatus={this.changeStatus}
         />
+        <div>Stopka</div>
       </div>
     );
   }
